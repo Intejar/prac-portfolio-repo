@@ -3,8 +3,6 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Mono', monospace;
     background-image: url(pic/p\ 7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .top h1{
     color: coral;
@@ -16,16 +14,29 @@ body{
 }
 .top img{
     height: 300px;
-    width: 600px;
+    width: 350px;
     border-radius: 20px;
     margin-left: 5%;
 }
 section{
     display: flex;
     margin: 10%;
+    /* background-color: rgb(91, 197, 233); */
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px rgba(224, 216, 216, 0.699);
 }
 .intro{
-    background-color: rgb(126, 126, 223);
+    margin-left: 5%;
+    background-color: antiquewhite;
     border-radius: 20px;
-    padding:2%
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#intro-button{
+    background-image: linear-gradient(navy,lightblue);
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+
 }
